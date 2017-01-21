@@ -6,12 +6,10 @@ import gi
 import dbus
 gi.require_version('Gtk', '3.0')
 gi.require_version('AppIndicator3', '0.1')
-gi.require_version('Notify', '0.7')
 
 from gi.repository import Gtk
 from gi.repository.Gdk import ScrollDirection
 from gi.repository import AppIndicator3
-from gi.repository import Notify
 
 APPINDICATOR_ID = "kupiakos-brightness-changer"
 
